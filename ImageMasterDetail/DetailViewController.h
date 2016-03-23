@@ -10,8 +10,8 @@
 
 @interface DetailViewController : UIViewController
 
-@property (strong, nonatomic) id detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
+/// The image that can be viewed in the image view.
+@property (strong, nonatomic) UIImage *image;
 
 @end
 

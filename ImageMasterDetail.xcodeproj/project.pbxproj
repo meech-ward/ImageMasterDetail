@@ -15,6 +15,7 @@
 		229FB1C81CA2433400F72121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 229FB1C71CA2433400F72121 /* Assets.xcassets */; };
 		229FB1CB1CA2433400F72121 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 229FB1C91CA2433400F72121 /* LaunchScreen.storyboard */; };
 		229FB1D61CA2433400F72121 /* ImageMasterDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 229FB1D51CA2433400F72121 /* ImageMasterDetailTests.m */; };
+		229FB1E21CA2484D00F72121 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 229FB1E11CA2484D00F72121 /* ImageCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,8 @@
 		229FB1D11CA2433400F72121 /* ImageMasterDetailTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageMasterDetailTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		229FB1D51CA2433400F72121 /* ImageMasterDetailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMasterDetailTests.m; sourceTree = "<group>"; };
 		229FB1D71CA2433400F72121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229FB1E01CA2484D00F72121 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		229FB1E11CA2484D00F72121 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				229FB1BF1CA2433400F72121 /* MasterViewController.m */,
 				229FB1C11CA2433400F72121 /* DetailViewController.h */,
 				229FB1C21CA2433400F72121 /* DetailViewController.m */,
+				229FB1E01CA2484D00F72121 /* ImageCell.h */,
+				229FB1E11CA2484D00F72121 /* ImageCell.m */,
 				229FB1C41CA2433400F72121 /* Main.storyboard */,
 				229FB1C71CA2433400F72121 /* Assets.xcassets */,
 				229FB1C91CA2433400F72121 /* LaunchScreen.storyboard */,
@@ -217,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				229FB1BD1CA2433400F72121 /* AppDelegate.m in Sources */,
+				229FB1E21CA2484D00F72121 /* ImageCell.m in Sources */,
 				229FB1C01CA2433400F72121 /* MasterViewController.m in Sources */,
 				229FB1BA1CA2433400F72121 /* main.m in Sources */,
 				229FB1C31CA2433400F72121 /* DetailViewController.m in Sources */,
